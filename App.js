@@ -24,7 +24,7 @@ export default function App() {
           value = {height}
           onChangeText={text => setHeight(text)}
       />
-      <Text>Pleaes add your weigth in cm</Text>
+      <Text>Pleaes add your weigth in kilograms</Text>
       <TextInput style={styles.inputStyle}
         value = {weigth}
         onChangeText={text => setWeigth(text)}
